@@ -3,7 +3,7 @@ from textnode import TextNode, TextType
 print("hello world")
 
 def main():
-    example = TextNode("Durs are absolute dumbasses", TextType.LINK, "https://e621.net")
-    print(example)
+    node = TextNode("This is a text node", TextType.BOLD, "https://www.boot.dev")
+    print(node)
 
 main()
